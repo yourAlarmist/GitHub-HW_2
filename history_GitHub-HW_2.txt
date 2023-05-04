@@ -1,0 +1,45 @@
+  501  git clone https://github.com/yourAlarmist/GitHub-HW_2.git
+  502  cd GitHub-HW_2/
+  503  git branch
+  504  git branch Postman
+  505  git branch
+  506  git branch JMeter
+  507  git branch ChechLists
+  508  git branch BagReports
+  509  git branch SQL
+  510  git branch Charles
+  511  git branch "Mobile testing"
+  512  git branch Mobile testing
+  513  git branch 
+  514  git branch MobileTesting
+  515  git branch 
+  516  git push -u origin Postman
+  517  git push -u origin JMeter 
+  518  git push -u origin ChechLists 
+  519  git push -u origin BagReports 
+  520  git push -u origin SQL 
+  521  git push -u origin Charles 
+  522  git push -u origin MobileTesting 
+  523  git checkout BagReports 
+  524  echo "" > BagReport.txt
+  525  nano BagReport.txt 
+  526  git status
+  527  git add BagReport.txt 
+  528  git status
+  529  git commit -m "creating BagReport.txt"
+  530  git push
+  531  git checkout main
+  532  git merge BagReports 
+  533  git push
+  534  git checkout ChechLists 
+  535  echo "" > check-list.txt
+  536  nano check-list.txt 
+  537  git status
+  538  git add check-list.txt 
+  539  git commit -m "creating check_list.txt"
+  540  git push
+  541  git pull
+  542  git checkout main
+  543  git pull
+  544  history
+  545  history 45 > history_GitHub-HW_2.txt
